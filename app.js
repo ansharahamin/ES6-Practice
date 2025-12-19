@@ -77,20 +77,58 @@
 // let sqr = (a) => a*a
 // console.log(sqr(2));
 
-class AdmissionForm  {
-    clearForm(){
-console.log(`this form is submitted`);
-    }
-    SubmitForm(){
-        console.log(`this form is submitted`);
 
-    }
-    fill(){
-        console.log(`this form is filled`);
+// Classes in JavaScript
+// class AdmissionForm  {
+//     constructor(name,age,city){
+//         this.name = name
+//         this.age = age
+//         this.city = city
+//         return
+//     }
+//     clearForm(){
+// console.log(`this form is submitted by ${this.name} , age ${this.age} from ${this.city} is cleared`);
+//     }
+//     SubmitForm(){
+//         console.log(`this form is submitted by ${this.name}, age ${this.age} from ${this.city}`);
 
-    }
-} 
-let umra = new AdmissionForm()
-let sara = new AdmissionForm()
-umra.clearForm("umra ",5)
-umra.SubmitForm("sara ",6)
+//     }
+//     fill(){
+
+
+//     }
+// } 
+// let umra = new AdmissionForm("umra ",5,"karachi")
+// let sara = new AdmissionForm("sara ",6,"lahore")
+// umra.clearForm()
+// sara.SubmitForm()
+
+
+// // bank account class
+// class BankAccount {
+//     constructor(accountHolder, balance){
+//         this.accountHolder = accountHolder;
+//         this.balance = balance ;
+//     }
+//     deposit(amount){
+//         this.balance += amount;
+//         console.log(`depositted Successfully Now your account balance is ${this.balance}`);
+        
+//     }
+//     withdraw(amount){
+//         if (amount > this.balance) {
+//             console.log("Insufficient balance");
+//         } else {
+//           this.balance -= amount;
+//         console.log(`withdrawn Successfully Now your account balance is ${this.balance}`);   
+//         }
+       
+
+//     }
+// }
+// let AnsharahAccount = new BankAccount("Ansharah",10000)
+// AnsharahAccount.deposit(5000)
+// AnsharahAccount.withdraw(5000)
+// let NehaAccount = new BankAccount("Neha",50000)
+// NehaAccount.deposit(255000)
+// NehaAccount.withdraw(50900)
