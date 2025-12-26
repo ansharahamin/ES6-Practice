@@ -18,6 +18,7 @@
 //         }
 //     }
 // }
+
 // //let arr =[1,2,3,4,5]
 // let arr = ["Ansharah","Umra","Sheema"]
 // let itret = iteratorFunc(arr)
@@ -72,22 +73,34 @@
 
 //Generators
 
-function *generatorFunc(){
-    console.log(1);
-    console.log(2);
-    yield "yeild1"
-    console.log(3);
-    console.log(4);
-        yield "yeild2"
+// function *generatorFunc(){
+//     console.log(1);
+//     console.log(2);
+//     yield "yeild1"
+//     console.log(3);
+//     console.log(4);
+//         yield "yeild2"
 
-    console.log(5);
-    yield "yeild3"
+//     console.log(5);
+//     yield "yeild3"
     
-}
+// }
 
-let g = generatorFunc()
-console.log(g.next());
-console.log("Hello");
-console.log(g.next());
-console.log(g.next());
-console.log(g.next());
+// let g = generatorFunc()
+// console.log(g.next());
+// console.log("Hello");
+// console.log(g.next());
+// console.log(g.next());
+// console.log(g.next());
+
+
+let fruits =["apple","banana"]
+function iterator(value) {
+    let index = 0
+    return{
+        next(){
+            if(nextIndex<value.length){
+
+            }
+    }
+}
